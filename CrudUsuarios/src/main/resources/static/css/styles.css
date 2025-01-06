@@ -1,0 +1,181 @@
+/* src/main/resources/static/css/styles.css */
+
+/* Establece las propiedades globales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Usamos la fuente Arial como la principal */
+    background-color: #f4f4f4; /* Un color de fondo suave */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+/* Estilo para los encabezados de primer nivel (h1) */
+h1 {
+    color: #dddddd; /* Color oscuro para el texto */
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%; /* La tabla ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas para mayor uniformidad */
+}
+
+/* Estilos generales para las tablas, encabezados y celdas */
+table, th, td {
+    border: 1px solid #ddd; /* Bordes suaves y gris claro */
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 8px; /* Espaciado dentro de las celdas */
+    text-align: left; /* Alineación del texto hacia la izquierda */
+}
+
+/* Estilo especial para los encabezados de las tablas */
+th {
+    background-color: #f2f2f2; /* Fondo de color gris claro para las celdas de encabezado */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #2196F3; /* Color azul para los enlaces */
+    text-decoration: none; /* Sin subrayado por defecto */
+}
+
+/* Estilo para cuando el usuario pasa el cursor sobre un enlace */
+a:hover {
+    text-decoration: underline; /* Añade un subrayado cuando se pasa el cursor */
+}
+
+/* Contenedor de formularios con estilo */
+.form-container {
+    max-width: 600px; /* Ancho máximo de 600px para los formularios */
+    margin: auto; /* Centra el formulario horizontalmente */
+    padding: 1em; /* Añade espacio interno alrededor del contenido */
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border: 1px solid #ddd; /* Bordes suaves de color gris */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilos para las etiquetas dentro del formulario */
+.form-container label {
+    display: block; /* Las etiquetas ocupan todo el ancho disponible */
+    margin-bottom: 6px; /* Espacio debajo de cada etiqueta */
+    font-weight: bold; /* Hace que las etiquetas sean en negrita */
+}
+
+/* Estilos para los campos de texto dentro del formulario */
+.form-container input[type="text"] {
+    width: 100%; /* El campo de texto ocupa todo el ancho disponible */
+    padding: 8px; /* Espaciado dentro del campo de texto */
+    margin-bottom: 10px; /* Espacio debajo del campo de texto */
+    border: 1px solid #ddd; /* Bordes suaves y gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo para los botones dentro del formulario */
+.form-container button {
+    padding: 10px 15px; /* Espaciado dentro del botón */
+    background-color: #4CAF50; /* Fondo verde para el botón */
+    color: white; /* Texto blanco en el botón */
+    border: none; /* Sin bordes */
+    border-radius: 4px; /* Bordes redondeados en el botón */
+    cursor: pointer; /* Cambia el cursor a mano al pasar sobre el botón */
+}
+
+/* Estilo para el botón cuando el usuario pasa el cursor sobre él */
+.form-container button:hover {
+    background-color: #45a049; /* Cambia el fondo a un verde más oscuro */
+}
+/*estilo del index*/
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+}
+body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.logo {
+    width: 23%;
+    position: absolute;
+    left: 5%;
+    transition: ease;
+}
+
+/* Header */
+.nav-masthead .nav-link {
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
